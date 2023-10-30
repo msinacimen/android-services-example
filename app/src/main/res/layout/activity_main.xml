@@ -34,4 +34,18 @@
         android:layout_marginTop="16dp"
         android:text="Stop Music"
         android:onClick="stopMusic" />
+
+    <Button
+        android:id="@+id/getLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="getLocationAndShowAlert"
+        android:layout_below="@id/stopButton"
+        />
+
 </RelativeLayout>
+
+
